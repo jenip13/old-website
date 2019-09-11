@@ -6116,6 +6116,10 @@ a.close.disabled {
   width: auto;
   margin: 0.5rem;
   pointer-events: none;
+  display: table; /* This is important */ 
+  overflow-y: auto;    
+  overflow-x: auto;
+  min-width: 300px;  
 }
 
 .modal.fade .modal-dialog {
