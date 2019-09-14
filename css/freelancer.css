@@ -6924,7 +6924,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #7F728C !important;
+  background-color: #76acd6 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10792,7 +10792,7 @@ a.text-dark:hover, a.text-dark:focus {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(108, 161, 206, 0.9);
+  background-color: rgb(59, 137, 196,0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -10889,3 +10889,16 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
+
+@media (min-width: 991.98px) {
+.content-desktop {display: block;}
+.content-mobile {display: none;}
+}
+
+@media (max-width: 991.98px) {
+.content-desktop {display: none;}
+.content-mobile {display: block;}
+
+}
+
